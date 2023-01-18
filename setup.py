@@ -21,10 +21,10 @@ setup(
 
     install_requires=[
         'Pillow',
-        'grpcio==1.48.1',
-        'grpcio-tools==1.48.1',
+        'grpcio==1.51.*,>=1.51.1',
+        'grpcio-tools==1.51.*,>=1.51.1',
         'python-dotenv',
-        'protobuf==3.19.5'
+        'protobuf==4.21.*,>=4.21.12',
     ],
     extras_require={
         'dev': [
